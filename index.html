@@ -7,9 +7,11 @@
 </head>
 <body>
     <h1>Bonjour Monde</h1>
+    <p>Jacques</p>
     <p id="p01">Salut</p>
     <script>
-    document.getElementById("p01").innerHTML += new date();
+    var currDate = new date();
+    document.getElementById("p01").innerHTML += " current date: " + currDate;
     </script>
 </body>
 </html>
